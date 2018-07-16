@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require 'minitest/emoji'
+require 'minitest/pride'
 require './lib/game_board'
 require 'pry'
 
@@ -10,5 +10,8 @@ class GameBoardTest < Minitest::Test
     assert_instance_of GameBoard, gameboard
   end
 
+  def test_it_has_an_empty_board
+
+  end
 
 end
