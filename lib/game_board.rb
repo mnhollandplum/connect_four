@@ -20,7 +20,7 @@ class GameBoard
 def game_board
     printable_board = @emptyboard.transpose
     printable_board.each do |column|
-      puts column.map { |p| p }.join(" ")
+      puts column.map { |c| c }.join(" ")
     end
 end
 
