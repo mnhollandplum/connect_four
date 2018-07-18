@@ -4,7 +4,7 @@ require './lib/game_board'
 require 'pry'
 
 class GameBoardTest < Minitest::Test
-  def test_it_exists
+  def test_game_board_exists
     gameboard = GameBoard.new
 
     assert_instance_of GameBoard, gameboard

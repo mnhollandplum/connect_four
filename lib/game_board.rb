@@ -14,15 +14,11 @@ class GameBoard
                ]
   end
 
-#create method that prints board
-#use .transpose...need board to be array. makes array of array into rows and columns
-#use map to split column headers
-#join to make into one string. Add a space in between each header
-
 def game_board
     printable_board = @emptyboard.transpose
     printable_board.map do |header|
       puts header.map { |h| h }.join(" ")
+
     end
 
 end
