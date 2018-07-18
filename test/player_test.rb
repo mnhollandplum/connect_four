@@ -12,12 +12,12 @@ class PlayerTest < Minitest::Test
     assert_instance_of Player, player
   end
 
-  def test_selection_valid
-    player = Player.new
-    expected = "F"
-    actual = player.selection_valid?
-  assert_equal expected, actual
-  end
+  # def test_selection_valid
+  #   player = Player.new
+  #   expected = "F"
+  #   actual = player.selection_valid?
+  # assert_equal expected, actual
+  # end
 
   # def test_for_invalid_feedback
   #   player = Player.new

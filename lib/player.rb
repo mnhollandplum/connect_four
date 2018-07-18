@@ -14,17 +14,18 @@ class Player
 def ask_for_user_input
   puts "Where would you like to put your piece? (Enter A-G)"
   @selection = gets.chomp
+  puts @selection
 end
 
-def selection_valid?
-if @selection =! "A" || "B" || "C" || "D" || "E" || "F" || "G"
-  puts "Please make sure you are entering a capitalized A, B, C, D, E, F, or G"
-
- ask_for_user_input
-else
-  place_piece
-end
-end
+# def selection_valid?
+# if @selection =! "A" || "B" || "C" || "D" || "E" || "F" || "G"
+#   puts "Please make sure you are entering a capitalized A, B, C, D, E, F, or G"
+#
+#  ask_for_user_input
+# else
+#   place_piece
+# end
+# end
 
   def place_piece
   if

@@ -18,7 +18,6 @@ def game_board
     printable_board = @emptyboard.transpose
     printable_board.map do |header|
       puts header.map { |h| h }.join(" ")
-
     end
 
 end
