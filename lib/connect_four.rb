@@ -4,11 +4,17 @@ require './lib/player'
 
 round = GameBoard.new
 
+
 puts "Let's play a game of Connect Four"
 
 #print out empty board
 
 round.game_board
+# p @emptyboard
+player = Player.new
+player.ask_for_user_input
+player.selection_valid?
+
 #
 # puts "Where would you like to place your piece?"
 # @selection = gets.chomp
