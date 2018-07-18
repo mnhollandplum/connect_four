@@ -9,9 +9,4 @@ class GameBoardTest < Minitest::Test
 
     assert_instance_of GameBoard, gameboard
   end
-
-  def test_it_has_an_empty_board
-
-  end
-
 end

@@ -22,7 +22,7 @@ class GameBoard
 def game_board
     printable_board = @emptyboard.transpose
     printable_board.map do |header|
-      puts header.map { |c| c }.join(" ")
+      puts header.map { |h| h }.join(" ")
     end
 
 end
